@@ -1,0 +1,101 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "https://phimmoiyyy.net/wp-content/uploads/2023/08/Thuoc-Phim-Kinh-Hoang.jpg",
+      "title": "Thước Phim Kinh Hoàng",
+      "releaseyear": "Streamer 2023"
+    },
+    {
+      "id": 2,
+      "image": "https://phimmoiyyy.net/wp-content/uploads/2023/08/Thuoc-Phim-Kinh-Hoang.jpg",
+      "title": "Thước Phim Kinh Hoàng",
+      "releaseyear": "Streamer 2023"
+    },
+    {
+      "id": 3,
+      "image": "https://phimmoiyyy.net/wp-content/uploads/2023/08/Thuoc-Phim-Kinh-Hoang.jpg",
+      "title": "Thước Phim Kinh Hoàng",
+      "releaseyear": "Streamer 2023"
+    },
+    {
+      "id": 4,
+      "image": "https://phimmoiyyy.net/wp-content/uploads/2023/08/Thuoc-Phim-Kinh-Hoang.jpg",
+      "title": "Thước Phim Kinh Hoàng",
+      "releaseyear": "Streamer 2023"
+    },
+    {
+      "id": 5,
+      "image": "https://phimmoiyyy.net/wp-content/uploads/2023/08/Thuoc-Phim-Kinh-Hoang.jpg",
+      "title": "Thước Phim Kinh Hoàng",
+      "releaseyear": "Streamer 2023"
+    },
+    {
+      "id": 6,
+      "image": "https://phimmoiyyy.net/wp-content/uploads/2023/08/Thuoc-Phim-Kinh-Hoang.jpg",
+      "title": "Thước Phim Kinh Hoàng",
+      "releaseyear": "Streamer 2023"
+    },
+    {
+      "id": 7,
+      "image": "https://phimmoiyyy.net/wp-content/uploads/2023/08/Thuoc-Phim-Kinh-Hoang.jpg",
+      "title": "Thước Phim Kinh Hoàng",
+      "releaseyear": "Streamer 2023"
+    },
+    {
+      "id": 5,
+      "image": "https://phimmoiyyy.net/wp-content/uploads/2023/08/Thuoc-Phim-Kinh-Hoang.jpg",
+      "title": "Thước Phim Kinh Hoàng",
+      "releaseyear": "Streamer 2023"
+    },
+    {
+      "id": 9,
+      "image": "https://phimmoiyyy.net/wp-content/uploads/2023/08/Thuoc-Phim-Kinh-Hoang.jpg",
+      "title": "Thước Phim Kinh Hoàng",
+      "releaseyear": "Streamer 2023"
+    },
+    {
+      "id": 10,
+      "image": "https://phimmoiyyy.net/wp-content/uploads/2023/08/Thuoc-Phim-Kinh-Hoang.jpg",
+      "title": "Thước Phim Kinh Hoàng",
+      "releaseyear": "Streamer 2023"
+    }
+  ],
+  "users": [
+    {
+      "email": "duogbachdev@mail.com",
+      "password": "$2a$10$2ljn.8hF5iWNvACfCIzkWulD0QTrtDpRaOELLSKpAe5AzcsZ0qpqS",
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "email": "admin@admin.vn",
+      "password": "$2a$10$AibVeuux/7HSlZx7usrZpuxgu3iFUwQNvzjunDNMjDve9YCWMzyBC",
+      "name": "Duog Bach",
+      "role": "admin",
+      "id": 2
+    },
+    {
+      "email": "maixuannam2210@gmail.com",
+      "password": "$2a$10$x7vNzTTXryVwrnFbtgNf.u7UkwO5bLI3M8Im7bCDZH4s3dEYw/qhG",
+      "name": "Nguyễn Phú Đức",
+      "role": "users",
+      "id": 3
+    },
+    {
+      "email": "duogbach@gmail.com",
+      "password": "$2a$10$AFHr9OGgHtJxVOc09FrareF8zL7mXNKvqOByeou8d6xQ1oOtrYtpy",
+      "name": "duogbach",
+      "role": "users",
+      "id": 4
+    },
+    {
+      "email": "duogbachnek@gmail.com",
+      "password": "$2a$10$cj9oFRnD.G3h7G/6YkGGLu1R.wuBHWVQsvkfkIP0F1K/pGwvRWVFy",
+      "name": "Duog Bach nek",
+      "role": "admin",
+      "id": 5
+    }
+  ],
+  "carts": []
+}

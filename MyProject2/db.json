@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "https://lzd-img-global.slatic.net/g/p/d002f828f3fd147fd80003cffb9c5fc5.png_200x200q80.png_.webp",
+      "title": "[Độc quyền Voucher Rewards 10%] Điện thoại Samsung Galaxy Z Flip 5 (8GB/512GB) - Độc quyền Online",
+      "price": "25,990,000",
+      "sale": "13",
+      "city": "Hồ Chí Minh"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
