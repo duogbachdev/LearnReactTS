@@ -1,0 +1,48 @@
+{
+  "data": [
+    {
+      "name": "user-admin",
+      "price": "9999",
+      "id": 6
+    },
+    {
+      "name": "admin123456789",
+      "price": "22222",
+      "id": 7
+    },
+    {
+      "name": "",
+      "price": "3333",
+      "id": 8
+    },
+    {
+      "name": "lazada",
+      "price": "3333",
+      "id": 9
+    },
+    {
+      "name": "tiki",
+      "price": "3333",
+      "id": 10
+    },
+    {
+      "name": "shopee food",
+      "price": "3333",
+      "id": 11
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "tiki",
+      "password": "tiki",
+      "confirmPassword": "tiki"
+    },
+    {
+      "name": "thành đô vũ",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "id": 2
+    }
+  ]
+}
