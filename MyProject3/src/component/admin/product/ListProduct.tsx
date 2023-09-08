@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { Iproducts } from "../../../interface/product";
 import { Deleteproducts, getAllData } from "../../../api/product.servcies";
+import { Link, useNavigate } from "react-router-dom";
 
 const ListProduct = () => {
+  const navigate = useNavigate();
   const [item, setItem] = useState<Iproducts[]>([]);
   useEffect(() => {
     const mapData = async () => {
@@ -17,7 +19,8 @@ const ListProduct = () => {
   return (
     <div className="px-8 py-8 h-screen">
       <h1 className="text-3xl uppercase font-semibold mb-8">List Products</h1>
-
+      <Link to="/admin/addproduct"><button>Them San Pham</button></Link>
+      <button onClick={()=> navigate("/admin/addproduct")}>Add Product</button>
       <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
         <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
           <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
