@@ -3,6 +3,7 @@ import { Outlet } from 'react-router'
 import { Link } from 'react-router-dom'
 
 const LayoutAdmin = () => {
+  
   return (
     <div className="flex gap-[300px]">
       <div>
