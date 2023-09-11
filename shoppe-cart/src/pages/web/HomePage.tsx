@@ -5,7 +5,7 @@ import TrangTru from "../../components/main/trangtru/TrangTru";
 
 const HomePage = () => {
   return (
-    <>
+    <div className="bg-[#F5F5F5]">
       <div>
         <Header />
       </div>
@@ -17,7 +17,7 @@ const HomePage = () => {
           <Footer />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
