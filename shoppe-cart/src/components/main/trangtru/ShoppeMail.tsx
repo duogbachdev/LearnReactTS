@@ -4,6 +4,10 @@ import { AiFillRightCircle } from "react-icons/ai";
 const ShoppeMail = () => {
   return (
     <div>
+
+      <div></div>
+
+
       <div className="flex justify-between items-center mb-5">
         <ul className="flex items-center gap-5 text-[17px] uppercase">
           <li className="text-[#d0011b]">Shopee Mall</li>
@@ -48,40 +52,40 @@ const ShoppeMail = () => {
             <p className="text-center text-[#d0011b] text-[18px]">Mua là có quà</p>
           </div>
           <div>
-            <img src="https://down-vn.img.susercontent.com/file/vn-50009109-cebfae17cd5979d823fb74ac79a922fa_xhdpi" alt="" />
+            <img src="https://down-vn.img.susercontent.com/file/be40023a9d9cff397a470460bc7a924d_xhdpi" alt="" />
             <p className="text-center text-[#d0011b] text-[18px]">Deli siêu sale</p>
           </div>
           <div>
-            <img src="https://down-vn.img.susercontent.com/file/vn-50009109-cebfae17cd5979d823fb74ac79a922fa_xhdpi" alt="" />
+            <img src="https://down-vn.img.susercontent.com/file/vn-50009109-08a87dd1e828b4bef31dafa67d5300ec_xhdpi" alt="" />
             <p className="text-center text-[#d0011b] text-[18px]">Quà mọi đơn</p>
           </div>
           <div>
-            <img src="https://down-vn.img.susercontent.com/file/vn-50009109-cebfae17cd5979d823fb74ac79a922fa_xhdpi" alt="" />
+            <img src="https://down-vn.img.susercontent.com/file/vn-50009109-06fb832ef52b45481158c26831cc459b_xhdpi" alt="" />
+            <p className="text-center text-[#d0011b] text-[18px]">Thời trang -50%</p>
+          </div>
+          <div>
+            <img src="https://down-vn.img.susercontent.com/file/vn-50009109-e8e0b80b57828bee61eb7e31c3d83765_xhdpi" alt="" />
+            <p className="text-center text-[#d0011b] text-[18px]">Giảm đến 50%</p>
+          </div>
+          <div>
+            <img src="https://down-vn.img.susercontent.com/file/vn-50009109-079ef6ec5c89b6a436c4455226841cd6_xhdpi" alt="" />
             <p className="text-center text-[#d0011b] text-[18px]">Mua là có quà</p>
           </div>
           <div>
-            <img src="https://down-vn.img.susercontent.com/file/vn-50009109-cebfae17cd5979d823fb74ac79a922fa_xhdpi" alt="" />
-            <p className="text-center text-[#d0011b] text-[18px]">Mua là có quà</p>
+            <img src="https://down-vn.img.susercontent.com/file/vn-50009109-7e80ab64bdc989f5c0862ed828f343a2_xhdpi" alt="" />
+            <p className="text-center text-[#d0011b] text-[18px]">Ưu đãi đến 50%</p>
           </div>
           <div>
-            <img src="https://down-vn.img.susercontent.com/file/vn-50009109-cebfae17cd5979d823fb74ac79a922fa_xhdpi" alt="" />
-            <p className="text-center text-[#d0011b] text-[18px]">Mua là có quà</p>
+            <img src="https://down-vn.img.susercontent.com/file/vn-50009109-0be3ac214d6174200ed4f3096a0faa9a_xhdpi" alt="" />
+            <p className="text-center text-[#d0011b] text-[18px]">Voucher 100k</p>
           </div>
           <div>
-            <img src="https://down-vn.img.susercontent.com/file/vn-50009109-cebfae17cd5979d823fb74ac79a922fa_xhdpi" alt="" />
-            <p className="text-center text-[#d0011b] text-[18px]">Mua là có quà</p>
+            <img src="https://down-vn.img.susercontent.com/file/5fb3f7b359a582f322ea39313e10260b_xhdpi" alt="" />
+            <p className="text-center text-[#d0011b] text-[18px]">Mua 1 tặng 1</p>
           </div>
           <div>
-            <img src="https://down-vn.img.susercontent.com/file/vn-50009109-cebfae17cd5979d823fb74ac79a922fa_xhdpi" alt="" />
-            <p className="text-center text-[#d0011b] text-[18px]">Mua là có quà</p>
-          </div>
-          <div>
-            <img src="https://down-vn.img.susercontent.com/file/vn-50009109-cebfae17cd5979d823fb74ac79a922fa_xhdpi" alt="" />
-            <p className="text-center text-[#d0011b] text-[18px]">Mua là có quà</p>
-          </div>
-          <div>
-            <img src="https://down-vn.img.susercontent.com/file/vn-50009109-cebfae17cd5979d823fb74ac79a922fa_xhdpi" alt="" />
-            <p className="text-center text-[#d0011b] text-[18px]">Mua là có quà</p>
+            <img src="https://down-vn.img.susercontent.com/file/3b18e2ec25c1f5c2a0ee9c9499a3ca0b_xhdpi" alt="" />
+            <p className="text-center text-[#d0011b] text-[18px]">Giảm đến 40%</p>
           </div>
         </div>
       </div>
