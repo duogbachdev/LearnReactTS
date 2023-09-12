@@ -29,10 +29,10 @@ const TrangTru = () => {
       <div className="bg-white mb-5 px-5 py-5">
         <ShoppeMail />
       </div>
-      <div>
+      <div className="bg-white mb-5 py-5">
         <HotSearch />
       </div>
-      <div>
+      <div >
         <RecommendProduct />
       </div>
     </div>

@@ -5,11 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "serve":"json-server db.json -m ./node_modules/json-server-auth",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.5.0",
     "i": "^0.3.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -26,6 +28,8 @@
     "eslint": "^8.45.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "json-server": "^0.17.3",
+    "json-server-auth": "^2.1.0",
     "postcss": "^8.4.29",
     "tailwindcss": "^3.3.3",
     "typescript": "^5.0.2",
