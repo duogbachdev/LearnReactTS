@@ -13,14 +13,25 @@
     },
     {
       "id": 2,
-      "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-ljnocby0suma02_tn",
+      "image": "https://down-vn.img.susercontent.com/file/8e1e62b0f4bb34b7d8d9ec540a41b633_tn",
       "image_url": "https://down-vn.img.susercontent.com/file/vn-50009109-6f131f270ee3730955da3b91fa48b7c8_tn",
       "love_title": "Yêu thích",
-      "discount": 32,
-      "description": "Đèn học để bàn tích điện Pkbeoshop đèn kẹp bàn đọc sách bảo vệ mắt 3 chế độ sáng nút cảm ứng tùy biến độ sáng DB01",
-      "discount_price": 10,
-      "price": 66000,
-      "sell_product": 105
+      "discount": 45,
+      "description": "FREESHIP Dép Sục Nữ 2 quai chất da mềm êm chân 002",
+      "discount_price": 20,
+      "price": 100000,
+      "sell_product": 5
+    },
+    {
+      "id": 3,
+      "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ll788twzasp44c_tn",
+      "image_url": "https://down-vn.img.susercontent.com/file/vn-50009109-6f131f270ee3730955da3b91fa48b7c8_tn",
+      "love_title": "Yêu thích",
+      "discount": 55,
+      "description": "FREESHIP Dép Sục Nữ 2 quai chất da mềm êm chân 002",
+      "discount_price": 0,
+      "price": 350000,
+      "sell_product": 12
     }
   ]
 }
