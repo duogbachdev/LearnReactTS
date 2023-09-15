@@ -1,6 +1,7 @@
 export interface Iproduct {
-  id: number;
+  id: string;
   image: string;
+  name: string;
   image_url: string;
   love_title: string;
   discount: number;

@@ -20,7 +20,7 @@ const ProductDetails = () => {
           <Product />
         </div>
 
-        <div className="bg-white px-5 py-5 mb-5">
+        <div className="bg-white px-6 py-8 mb-5">
           <ComboSale />
         </div>
         <div className="bg-white px-5 py-5 mb-5">

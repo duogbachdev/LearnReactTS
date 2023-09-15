@@ -35,18 +35,17 @@ const Product = () => {
 
   return (
     <div className="flex gap-8">
-      {/* <Helmet>
-        <title>{data?.description || "Shopee 09/09"}</title>
-        
+      <Helmet>
+        <title> {data?.description || "Shopee 09/09"} </title>
         <meta
           name="description"
           content={convert(data?.description || "", {
-              limits: {
-                  maxInputLength: 100,
-                },
-            })}
-            />
-      </Helmet> */}
+            limits: {
+              maxInputLength: 100,
+            },
+          })}
+        />
+      </Helmet>
       <div className="basis-5/6">
         <img className="mb-5 w-full" src={data?.image} alt="" />
 
