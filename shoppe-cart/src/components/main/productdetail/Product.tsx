@@ -13,23 +13,46 @@ import {
 } from "react-icons/bs";
 import { Helmet } from "react-helmet-async";
 import { convert } from "html-to-text";
+import { collection, onSnapshot } from "firebase/firestore";
+import { db } from "../../../firebase/config.firebase";
 
 const Product = () => {
   const [data, setData] = useState<Iproduct | null>(null);
+  const colRefDb = collection(db, "product");
   const { id } = useParams();
+  // const { id } = useParams();
+
+  // useEffect(() => {
+  //   const fetchDataDetails = async (id: number) => {
+  //     try {
+  //       const res = await getIdproducts(id);
+  //       setData(res.data);
+  //     } catch (error) {
+  //       alert(error);
+  //     }
+  //   };
+
+  //   if (id) {
+  //     fetchDataDetails(Number(id));
+  //   }
+  // }, [id]);
 
   useEffect(() => {
-    const fetchDataDetails = async (id: number) => {
-      try {
-        const res = await getIdproducts(id);
-        setData(res.data);
-      } catch (error) {
-        alert(error);
-      }
-    };
-
     if (id) {
-      fetchDataDetails(Number(id));
+      const unsubscribe = onSnapshot(colRefDb, (snapshot) => {
+        snapshot.docs.forEach((product) => {
+          const productdata = product.data() as Iproduct;
+          if (product.id === id) {
+            setData({
+              ...productdata,
+              id: product.id,
+            });
+          }
+        });
+      });
+
+      // Unsubscribe from the snapshot listener when the component unmounts
+      return () => unsubscribe();
     }
   }, [id]);
 
