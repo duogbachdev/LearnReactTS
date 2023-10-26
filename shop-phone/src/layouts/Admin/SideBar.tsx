@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { DesktopOutlined, FileOutlined, PieChartOutlined, TeamOutlined, UserOutlined } from '@ant-design/icons'
 import type { MenuProps } from 'antd'
 import { Layout, Menu } from 'antd'
+import { Link } from 'react-router-dom'
 
 const { Sider } = Layout
 
@@ -18,7 +19,7 @@ function getItem(label: React.ReactNode, key: React.Key, icon?: React.ReactNode,
 
 const items: MenuItem[] = [
   getItem('DashBoard', '1', <PieChartOutlined />),
-  getItem('Product', '2', <DesktopOutlined />),
+  getItem(<Link to={'/admin/product'}>Product</Link>, '2', <DesktopOutlined />),
   getItem('User', 'sub1', <UserOutlined />, [getItem('Tom', '3'), getItem('Bill', '4'), getItem('Alex', '5')]),
   getItem('Team', 'sub2', <TeamOutlined />, [getItem('Team 1', '6'), getItem('Team 2', '8')]),
   getItem('Files', '9', <FileOutlined />),
